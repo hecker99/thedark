@@ -1,3 +1,4 @@
+
 import java.util.Scanner;
 
 class a{
@@ -10,14 +11,24 @@ class a{
 		int b = s.nextInt();
 		int c = s.nextInt();
 
-if ((a<b) && (a<c)){
-	System.out.println("third largest number is : " + a );
+if ((a>b) && (b>c)){
+	System.out.println("third largest number is : " + c );
+	
 	}
 	
- else if  ((b<c) && (b<a)){
+ else if  ((b>a) && (c>a)){
 	 
-			System.out.println("third largest number is : " + b );	}	
-		else 
-			System.out.println("third largest number is : " + c);	
+			System.out.println("third largest number is : " + a);	}
+
+ else if  ((a>c) && (b>c)){
+	 
+		System.out.println("third largest number is : " + c);	}	
+
+ else if  ((a>b) && (c>b)){
+	 
+		System.out.println("third largest number is : " + b);	}
 	 }
 	}
+
+			
+	
